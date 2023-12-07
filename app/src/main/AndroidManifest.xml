@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CaringverseApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".ViewAnnouncesActivity.ViewAnnounces"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MenuActivity.Menu"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LogInActivity.LogIn"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity.SignUp"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".PosterAnnounceActivity.PosterAnnounce"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AdminMenuActivity.AdminMenu"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AdminAjouterProduitsActivity.AdminAjouterProduits"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AdminProduitsActivity.AdminProduits"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AdminUtilisateursActivity.ViewAdminUtilisateurs"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MissionActivity.Mission"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DetailsPersonnelles.DetailsPersonnelles"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DetailsPersonnelles.EditerDetailsPersonnelles"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ProduitsUserAcivity.ProduitsUserActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+        </activity>
+
+    </application>
+
+</manifest>

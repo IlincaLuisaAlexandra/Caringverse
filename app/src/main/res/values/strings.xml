@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CaringverseApp</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="email">Email</string>
+    <string name="motpasse">Mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="signup">Sign Up</string>
+    <string name="nom">Nom</string>
+    <string name="numero">Numero du telephone</string>
+    <string name="date">Date de naissance</string>
+    <string name="recompenses">Recompenses</string>
+    <string name="details_personnelles">Details personnelles</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="mission">Mission</string>
+    <string name="mes_annonces">Mes annonces</string>
+    <string name="poster_annonce">Poster annonce</string>
+    <string name="ecrire_ici">Ecrire ici</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="annuler">Annuler</string>
+    <string name="menu">Menu</string>
+    <string name="log_in">Log in</string>
+    <string name="accepter_annonces">Accepter annonces</string>
+
+    <string name="visualiser_annonces">Visualiser annonces</string>
+    <string name="categorie">Categorie:</string>
+    <string name="animale">Animale</string>
+    <string name="description_annonce">Description annonce:</string>
+    <string name="categorie2">Categorie:</string>
+    <string name="sign_up">Sign up</string>
+    <string name="logo">Logo</string>
+    <string name="logo1">logo1</string>
+    <string name="mission_faite">Fin de la mission</string>
+    <string name="proprietaire">Proprietaire</string>
+    <string name="ville">Ville</string>
+    <string name="pays">Pays</string>
+    <string name="utilisateurs">Utilisateurs</string>
+    <string name="diminuer">Diminuer points</string>
+    <string name="renoncer">Renoncer</string>
+    <string name="editer">Editer les details personnelles</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered">Not yet registered?</string>
+    <string name="imageRecompense">imageRecompense</string>
+    <string name="caringverse">Caringverse</string>
+    <string name="points">Points</string>
+    <string name="back_to_menu">Menu</string>
+    <string name="ajouter_produit">Ajouter Produit</string>
+    <string name="produits">Produits</string>
+    <string name="finish">Finish</string>
+    <string name="error">Error</string>
+    <string name="creation_admin">Creation administrateur</string>
+    <string name="abandonner">Abandonner</string>
+    <string name="poster">Poster</string>
+    <string name="cat_gorie">catégorie</string>
+    <string name="eroare">Eroare</string>
+    <string name="effacer">Effacer</string>
+    <string name="description_produit">Description Produit</string>
+    <string name="description_produitt">Description Produit</string>
+    <string name="n_a_pas_un_compte">N\'a pas un compte?</string>
+
+</resources>

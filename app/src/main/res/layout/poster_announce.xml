@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundal2"
+    >
+
+    <ImageView
+        android:id="@+id/idLogo8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/categorieFaraSpinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idLogo8"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="55dp"
+        android:ems="10"
+        android:hint="@string/categorie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/categorieFaraSpinnerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6BDFFAFF"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/descriptionA"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/categorieFaraSpinner"
+        android:layout_alignStart="@+id/categorieFaraSpinner"
+        android:layout_alignEnd="@+id/categorieFaraSpinner"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="@string/description_annonce"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorieFaraSpinner">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/descriptionAEditText"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:backgroundTint="#6BDFFAFF"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/villeA"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionA"
+        android:layout_alignStart="@+id/descriptionA"
+        android:layout_alignEnd="@+id/descriptionA"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:baselineAligned="true"
+        android:ems="10"
+        android:hint="@string/ville"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionA">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/villeAEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6BDFFAFF"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/paysA"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/villeA"
+        android:layout_alignStart="@+id/villeA"
+        android:layout_alignEnd="@+id/villeA"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="@string/pays"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/villeA">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/paysAEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6BDFFAFF"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <Spinner-->
+<!--        android:id="@+id/categorieA"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/idLogo8" />-->
+
+
+    <Button
+        android:id="@+id/btnSauvegarder"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/paysA"
+        android:layout_alignStart="@+id/paysA"
+        android:layout_alignEnd="@+id/paysA"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/sauvegarder"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>
+
+
+<!--<com.google.android.material.textfield.TextInputLayout-->
+<!--android:id="@+id/proprietaireA"-->
+<!--android:layout_width="300dp"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="20dp"-->
+<!--android:ems="10"-->
+<!--android:hint="@string/proprietaire"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/descriptionA">-->
+
+<!--<com.google.android.material.textfield.TextInputEditText-->
+<!--    android:id="@+id/proprietaireAEditText"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:backgroundTint="#6BDFFAFF"-->
+<!--    tools:ignore="TextContrastCheck" />-->
+<!--</com.google.android.material.textfield.TextInputLayout>-->
+

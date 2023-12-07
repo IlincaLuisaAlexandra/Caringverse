@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--    sign_up-->
+    <item name="nom" type="id" />
+    <item name="nomEditText" type="id" />
+    <item name="emailSignUp" type="id" />
+    <item name="emailSignUpEditText" type="id"/>
+    <item name="telephone" type="id"/>
+    <item name="telephoneEditText" type="id" />
+    <item name="date" type="id" />
+    <item name="dateEditText" type="id" />
+    <item name="motPasseSignUp" type="id"/>
+    <item name="motPasseSignUpEditText" type="id"/>
+    <item name="btnSignUpLogIn" type="id" />
+    <item name="idLogo8" type="id" />
+
+
+<!--    log_in-->
+    <item name="idPosterUnAnnonce" type="id" />
+    <item name="idMesAnnonces" type="id"/>
+    <item name="idMission" type="id"/>
+    <item name="btnDeconnexion" type="id" />
+    <item name="idDetailsPersonnelles" type="id" />
+    <item name="idLogo" type="id" />
+    <item name="btnVisualiserAnnonces" type="id"/>
+    <item name="idProduits" type="id"/>
+
+
+<!--single_announce-->
+    <item name="proprietaireAnn" type="id"/>
+    <item name="accepterAnn" type="id" />
+    <item name="categorieAnn" type="id" />
+    <item name="descriptionAnn" type="id" />
+    <item name="main_container" type="id"/>
+    <item name="ville_pays_Ann" type="id"/>
+
+
+<!--announces-->
+    <item name="pager" type="id"/>
+    <item name="recyclerView" type="id"/>
+
+
+<!--announce-->
+    <item name="terminerAnn" type="id"/>
+
+
+<!--    poster_announce-->
+    <item name="descriptionA" type="id" />
+    <item name="proprietaireA" type="id" />
+    <item name="villeA" type="id" />
+    <item name="paysA" type="id" />
+    <item name="categorieA" type="id" />
+
+    <item name="idPrd" type="id" />
+    <item name="idUtl" type="id" />
+    <item name="categorieFaraSpinner" type="id" />
+    <item name="btnSauvegarder" type="id" />
+
+<!--details_personnelles-->
+    <item name="diminuer" type="id"/>
+    <item name="faireAdmin" type="id" />
+    <item name="idAdminIdProduitProster" type="id" />
+
+
+</resources>
